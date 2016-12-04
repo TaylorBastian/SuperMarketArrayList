@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Store {
 	private String name;
 	private double amount;
-	private static ArrayList<Store> saleList = new ArrayList<>();
+	static ArrayList<Store> saleList = new ArrayList<>();
 	
 	
 	public Store(String name, double amount) {
